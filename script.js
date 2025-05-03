@@ -1,8 +1,11 @@
-let menu =document.getElementsByClassName('hidden')[0]
-const menubtn =document.getElementsByClassName('menu')[0]  
 
-console.log(menu)
-console.log(menubtn)
+let ActiveImageIndex = 0;
+
+const leftBtn = document.getElementById('left');
+const rightBtn = document.getElementById('right');
+const slider = document.getElementById('slider-img');
+const descText = document.getElementById('desc');
+const indexText = document.getElementById('index');
 
 
 let menuIsHidden=true
@@ -22,13 +25,6 @@ if(menuIsHidden){
 menuIsHidden= !menuIsHidden
 
 })
-let ActiveImageIndex = 0;
-
-const leftBtn = document.getElementById('left');
-const rightBtn = document.getElementById('right');
-const slider = document.getElementById('slider-img');
-const descText = document.getElementById('desc');
-const indexText = document.getElementById('index');
 
 
 slider.setAttribute('src', images[ActiveImageIndex]);
