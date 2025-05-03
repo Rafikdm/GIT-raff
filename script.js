@@ -1,7 +1,9 @@
 
 let ActiveImageIndex = 0;
 
-const boutongauche = document.getElementById('left');
+
+const gchBtn = document.getElementById('left');
+
 const rightBtn = document.getElementById('right');
 const slider = document.getElementById('slider-img');
 const descText = document.getElementById('desc');
