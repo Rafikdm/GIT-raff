@@ -1,30 +1,12 @@
-
+const images = ['/GIT-raff/OIP.jpeg', '/GIT-raff/feathers-6f-o.jpeg', '/GIT-raff/3.jpg', '/GIT-raff/4.jpeg'];
+const Deesc = ['je  propose cette image contient diff plumes ', 'cette photo montre plusieur type de color', 'des plumes d un oiseau rare  ', 'une plume vert '];
 let ActiveImageIndex = 0;
 
-const gchBtn = document.getElementById('left');
+const leftBtn = document.getElementById('left');
 const rightBtn = document.getElementById('right');
 const slider = document.getElementById('slider-img');
 const descText = document.getElementById('desc');
 const indexText = document.getElementById('index');
-
-
-let menuIsHidden=true
-
-menubtn.addEventListener('click', function(){
-    
-    console.log("click",menuIsHidden)
-    console.log(menu.className)
-
-if(menuIsHidden){
-    menu.className = menu.className.replace('hidden', '  ');
-}else{
-    menu.className = menu.className + ' hidden'
-}
-
-
-menuIsHidden= !menuIsHidden
-
-})
 
 
 slider.setAttribute('src', images[ActiveImageIndex]);
