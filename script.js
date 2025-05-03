@@ -19,6 +19,6 @@ if(menuIsHidden){
 }
 
 
-menuIsHidden= !menuIsHidden
+menuIsHidden= !menuIsHidden;
 
 })
